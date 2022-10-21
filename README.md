@@ -8,12 +8,6 @@
 Nesse projeto, o desafio foi desenvolver para a clínica fictícia "La Vie - Saúde Mental" uma API que permita criar registros de psicólogos, pacientes e prontuários.
 Também ficamos responsáveis por criar o banco de dados que inclui: Criação do DER e do script SQL que gera o banco.
 
-## Conhecimentos aplicados:
-
-- MySQL para criação do banco de dados;
-- API REST para criação de rotas;
-- NodeJs e ExpressJS para validação e autenticação de usuário.
-
 ## Funcionalidades criadas: 
 
 - Validação de login para Psicólogos;
@@ -21,17 +15,11 @@ Também ficamos responsáveis por criar o banco de dados que inclui: Criação d
 - Dashboard para visualização de número de pacientes, psicólogos e atendimentos;
 - Gerar a documentação da API.
 
-## Critérios de Avaliação: 
+## Conhecimentos aplicados:
 
-- Boas práticas em relação ao uso de JS;
-- Boa organização do projeto usando os princípios do MVC;
-- Validação dos dados que entram na api;
-- Feedback de erros para os usuários;
-- Divisão de tarefas entre os membros da equipe seguindo os princípios daMetodologia Ágil Scrum;
-- Utilizar boas práticas de versionamento de código com Git.
-
----
-
+- MySQL para criação do banco de dados;
+- API REST para criação de rotas;
+- NodeJs e ExpressJS para validação e autenticação de usuário.
 
 ## computer: Desenvolvedores
 [<img src="https://avatars.githubusercontent.com/u/112213060?v=4" width=115> <br> <sub>Jonathan Martins </sub>](https://github.com/Jonathan-Hacker)   
