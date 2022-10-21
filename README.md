@@ -24,4 +24,4 @@ Também ficamos responsáveis por criar o banco de dados que inclui: Criação d
 ## Desenvolvedores
 [<img src="https://avatars.githubusercontent.com/u/112213060?v=4" width=115> <br> <sub>Jonathan Martins </sub>](https://github.com/Jonathan-Hacker)   
 <br>
-## :wrench: Tecnologias ![JavaScript](https://img.shields.io/badge/-JavaScipt-yellow)![NodeJS](https://img.shields.io/badge/-NODE.JS-brightgreen)![MySQL](https://img.shields.io/badge/-MySQL-blue)
+## Tecnologias ![JavaScript](https://img.shields.io/badge/-JavaScipt-yellow)![NodeJS](https://img.shields.io/badge/-NODE.JS-brightgreen)![MySQL](https://img.shields.io/badge/-MySQL-blue)
