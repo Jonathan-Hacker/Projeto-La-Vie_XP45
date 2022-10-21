@@ -21,7 +21,7 @@ Também ficamos responsáveis por criar o banco de dados que inclui: Criação d
 - API REST para criação de rotas;
 - NodeJs e ExpressJS para validação e autenticação de usuário.
 
-## computer: Desenvolvedores
+## Desenvolvedores
 [<img src="https://avatars.githubusercontent.com/u/112213060?v=4" width=115> <br> <sub>Jonathan Martins </sub>](https://github.com/Jonathan-Hacker)   
 <br>
 
