@@ -1,9 +1,13 @@
 const express = require("express");
 const routes = express.Router();
-
-routes.get("/atendimentos", atendimentosController.listar);
-routes.get("/atendimentos/:id", atendimentosValidators.listarID, atendimentosController.listarID);
-routes.post("/atendimentos",atendimentosValidators.cadastrar,  atendimentosController.cadastrar);
+const pacientesController = require("../controllers/pacientes");
+const psicologoController = require("../controllers/psicologos")
+const atendimentosController = require("../controllers/atendimentos");
+const dashboardController = require("../controllers/dashboard");
+const authValidator = require("../validators/auth/login");
+const pacientesValidators = require("../validators/pacientes");
+const psicologosValidators = require("../validators/psicologos");
+const atendimentosValidators = require("../validators/atendimentos");
 
 
 routes.get("/pacientes", pacientesController.listar);
@@ -23,21 +27,14 @@ routes.delete("/psicologos/:id", psicologosValidators.deletar, psicologoControll
 routes.post("/login", authValidator, psicologoController.login);
 
 
+routes.get("/atendimentos", atendimentosController.listar);
+routes.get("/atendimentos/:id", atendimentosValidators.listarID, atendimentosController.listarID);
+routes.post("/atendimentos",atendimentosValidators.cadastrar,  atendimentosController.cadastrar);
+
+
 routes.get("/dashboard/numero-atendimentos", dashboardController.numAtendimentos);
 routes.get("/dashboard/numero-pacientes", dashboardController.numPacientes);
 routes.get("/dashboard/numero-psicologos", dashboardController.numPsicologos);
 routes.get("/dashboard/media-atendimentos", dashboardController.mediaAtendimentos);
-
-
-const authValidator = require("../validators/auth/login");
-const pacientesValidators = require("../validators/pacientes");
-const psicologosValidators = require("../validators/psicologos");
-const atendimentosValidators = require("../validators/atendimentos");
-
-const pacientesController = require("../controllers/pacientes");
-const psicologoController = require("../controllers/psicologos")
-const atendimentosController = require("../controllers/atendimentos");
-const dashboardController = require("../controllers/dashboard");
-
 
 module.exports = routes;

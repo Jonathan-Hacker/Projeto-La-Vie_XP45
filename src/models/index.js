@@ -1,4 +1,5 @@
-//importação dos arquivos da psta models
+
+
 const Atendimentos = require("./Atendimentos");
 const Pacientes = require("./Pacientes");
 const Psicologos = require("./Psicologos");

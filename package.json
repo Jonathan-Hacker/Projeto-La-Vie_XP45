@@ -18,7 +18,7 @@
   },
   "name": "la-vie",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch src src/app.js"
@@ -33,6 +33,6 @@
   "bugs": {
     "url": "https://github.com/Jonathan-Hacker/Projeto-La-Vie_XP45/issues"
   },
-  "homepage": "https://github.com/99arielsr/la-vie-api#readme",
+  "homepage": "https://github.com/Jonathan-Hacker/Projeto-La-Vie_XP45#readme",
   "description": ""
 }

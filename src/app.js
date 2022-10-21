@@ -1,7 +1,7 @@
 const express = require("express");
 
 const routes = require("./routes");
-const db = require("./database/index");
+const db = require("./database");
 const handleError = require("./middlewares/handleError");
 const authMiddleware = require("./middlewares/auth");
 const jwtMiddleware = require("./middlewares/jwt")
