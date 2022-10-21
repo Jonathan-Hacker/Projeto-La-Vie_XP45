@@ -1,5 +1,3 @@
-drop database lavie;
-
 create database lavie;
 
 CREATE TABLE `lavie`.`pacientes` (
